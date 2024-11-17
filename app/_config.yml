@@ -1,0 +1,64 @@
+# Site settings
+title: Graham Greenfield
+email: xrbglzwk
+url: https://grahamgreenfield.com
+description: "Professional portfolio and services site."
+keywords: "programmer, developer, consultant, mobile app development, web developer, system administration"
+skills: "Fullstack {front-end, back-end, mobile, low-level system} Software Engineer" 
+meta_author: Greenfield Graham
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: grahamg
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 4F2361        # Base00
+  primary-rgb: "255,255,255"  # RGB equivalent of Base00
+  secondary: 2A292E      # Base1
+  secondary-dark: 7F5281 # Base01
+
+# Footer settings
+footer:
+  copyright: Graham Greenfield
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/patternenhancer
+  - title: github
+    url: http://github.com/grahamg
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: "<i>\"The function of good software</i>"
+  - line: "<i>is to make the complex appear</i>"
+  - line: "<i>to be simple.</i>\" &mdash; Grady Booch"
+
+# Credits content
+credits: 'Website design is modified from the Jekyll <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> theme.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
